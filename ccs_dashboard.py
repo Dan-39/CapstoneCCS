@@ -262,7 +262,7 @@ if data_source == "Upload New Data":
 
 @st.cache_data
 def load_default_data():
-    df = pd.read_csv(r"c:\Users\HP\Downloads\Capstone\Sponsor Files\CCS_Client_Level_Master.csv")
+    df = pd.read_csv('CCS_Client_Level_Master.csv')
     date_cols = ['Birthdate', 'Landing Date', 'Arrival Date', 'first_assessment_date', 
                  'first_service_date', 'last_assessment_date', 'last_service_date']
     for col in date_cols:
