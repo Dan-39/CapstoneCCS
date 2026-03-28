@@ -1,0 +1,56 @@
+================================================================================
+CCS DATA QUALITY REPORT
+Generated: 2026-03-27 22:35:57
+================================================================================
+
+1. JOIN COVERAGE ANALYSIS
+--------------------------------------------------------------------------------
+Total unique clients in master list: 6796
+Clients with at least one assessment: 3862 (56.8%)
+Clients with at least one service: 6598 (97.1%)
+Clients with both assessment AND service: 3678 (54.1%)
+
+2. ORPHAN RECORDS (Records without matching client)
+--------------------------------------------------------------------------------
+Orphan service records: 0
+Orphan assessment records: 554
+
+3. TEMPORAL LOGIC VALIDATION
+--------------------------------------------------------------------------------
+Clients with service BEFORE assessment: 351
+Clients with service BEFORE landing: 4
+Clients with assessment BEFORE landing: 1
+
+4. MISSING DATA ANALYSIS - CLIENT MASTER
+--------------------------------------------------------------------------------
+Birthdate                     :   0.0% missing
+Gender                        :   0.0% missing
+Country of Origin             :   1.6% missing
+Language                      :   5.3% missing
+immigration_class             :   0.1% missing
+Landing Date                  :  25.2% missing
+
+5. DATA DATE RANGES
+--------------------------------------------------------------------------------
+Service dates range: 2025-06-02 to 2025-12-31
+Assessment dates range: 2025-06-01 to 2025-12-31
+
+6. MONTHLY DATA LOAD STATISTICS
+--------------------------------------------------------------------------------
+Services by month:
+  Jun: 1,763 records
+  Jul: 1,758 records
+  Aug: 2,038 records
+  Sep: 1,993 records
+  Oct: 2,299 records
+  Nov: 2,350 records
+  Dec: 1,988 records
+
+Assessments by month:
+  Jun: 607 records
+  Jul: 685 records
+  Aug: 704 records
+  Sep: 685 records
+  Oct: 776 records
+  Nov: 700 records
+  Dec: 554 records
